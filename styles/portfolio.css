@@ -1,17 +1,25 @@
-/*font-family: 'Parisienne',
-cursive;
-font-family: 'Playfair Display',
-serif;
-font-family: 'Poppins',
-sans-serif; */
-h1 {
-    color: white;
-    font-family: 'Playfair Display',
-    serif;
-    font-weight: 700;
+:root {
+    --heading-font-family: 'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
+    --quote-font-family: 'Parisienne', cursive;
+    --primary-color: #F9F7FE;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font-family);
+}
+h1{
+    font-size: 76px;
 }
 p {
-  font-family:   'Parisienne',
-    cursive;
-    font-weight: 400;
+    font-size: 24px;
+    font-family: var(--default-font-family);
+}
+h3 {
+    font-size: 20px;
+    opacity: 0.7;
+}
+.hero {
+    text-align: center;
+    background: var(--primary-color);
+    padding: 55px 20px;
 }
