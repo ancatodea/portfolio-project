@@ -10,7 +10,8 @@ h1,h2,h3,h4,h5,h6 {
 h1{
     font-size: 76px;
 }
-p {
+p { 
+    font-weight: 500;
     font-size: 24px;
     font-family: var(--default-font-family);
 }
