@@ -3,6 +3,10 @@
     --default-font-family: 'Poppins', sans-serif;
     --quote-font-family: 'Parisienne', cursive;
     --primary-color: #F9F7FE;
+    --brand-color: #9802a6;
+    --shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font-family);
@@ -10,17 +14,46 @@ h1,h2,h3,h4,h5,h6 {
 h1{
     font-size: 76px;
 }
-p { 
+h3 {
+    font-size: 20px;
+    opacity: 0.7;
+    }
+.hero p { 
     font-weight: 500;
     font-size: 24px;
     font-family: var(--default-font-family);
 }
-h3 {
-    font-size: 20px;
-    opacity: 0.7;
-}
+
 .hero {
     text-align: center;
     background: var(--primary-color);
     padding: 55px 20px;
+}
+.container p {
+    font-size: 16px;
+    opacity: 0.7;
+    
+}
+.btn-branding {
+    color: white;
+    background: var(--brand-color);
+    box-shadow: var(--shadow);
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    body p {
+        text-align: center;
+    }
+    .btn-branding{
+        display: block;
+        margin: 24px 32px;
+    }
 }
