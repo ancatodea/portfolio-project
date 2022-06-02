@@ -57,3 +57,11 @@ h3 {
         margin: 24px 32px;
     }
 }
+@media (min-width: 576px){
+    .btn-branding {
+        margin-top: 20px;
+    }
+    .portofolio {
+        margin-top: 38px;
+    }
+}
