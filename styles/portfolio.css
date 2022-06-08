@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 h1{
     font-size: 76px;
 }
-h3 {
+.homepage h3 {
     font-size: 20px;
     opacity: 0.7;
     }
@@ -29,10 +29,37 @@ h3 {
     background: var(--primary-color);
     padding: 55px 20px;
 }
-.container p {
+.homepage p {
     font-size: 16px;
     opacity: 0.7;
     
+}
+.about-section p {
+    font-size: 16px;
+    font-family: var(--default-font-family);
+    opacity: 0.8;
+}
+
+#skills h3 {
+    color: var(--brand-color);
+    font-size: 24px;
+
+}
+#certificate h3 {
+    color: var(--brand-color);
+    font-size: 24px;
+
+}
+#certificate a {
+    color: var(--brand-color);
+    text-decoration: none;
+}
+#certificate  li {
+   list-style: none;
+}
+
+.about-section h2 {
+    font-size: 34px;
 }
 .btn-branding {
     color: white;
@@ -63,5 +90,12 @@ h3 {
     }
     .portofolio {
         margin-top: 38px;
+    }
+    
+}
+@media (min-width: 776px) {
+    #certificate {
+        text-align: center;
+    
     }
 }
