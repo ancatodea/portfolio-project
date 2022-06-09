@@ -69,6 +69,7 @@ h1{
     background: var(--brand-color);
     box-shadow: var(--shadow);
 }
+
 @media (max-width: 576px) {
     h1 {
         font-size: 44px;
@@ -96,9 +97,17 @@ h1{
     }
     
 }
+@media (max-width:776px) {
+    .contact-qoute {
+        margin-top: 23px;
+    }
+}
 @media (min-width: 776px) {
     #certificate {
         text-align: center;
     
+    }
+    .contact-qoute {
+        margin-top: 44px;
     }
 }
