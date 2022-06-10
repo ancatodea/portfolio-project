@@ -132,6 +132,9 @@ footer .contact-box p {
     background: var(--brand-color);
     box-shadow: var(--shadow);
 }
+.source a {
+ color: var(--brand-color);
+}
 
 @media (max-width: 576px) {
     h1 {
