@@ -58,7 +58,35 @@ h1{
     text-decoration: none;
 }
 #certificate  li {
-   list-style: none;
+   list-style: none; 
+}
+
+.logo {
+    max-height: 40px;
+}
+nav {
+    padding: 15px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    font-family: var(--heading-font-family);
+    margin-left: 18px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+    color: var(--brand-color);
+    
 }
 
 .content-container h2 {
