@@ -150,6 +150,17 @@ footer .contact-box p {
      color: white;
      background-color: var(--brand-color);
  }
+.imgBox {
+    width: 441px;
+    height: 248px;
+    background: no-repeat;
+}
+
+.imgBox:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
  
 .content-container h2 {
     font-size: 34px;
